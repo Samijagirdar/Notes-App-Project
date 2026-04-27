@@ -1,20 +1,67 @@
-<<<<<<< HEAD
-# React + Vite
+📝 Notes App
+A simple and intuitive Notes App built using React.js that allows users to create, manage, and delete notes efficiently. The core objective of this project is to understand and implement the useState hook for managing dynamic data and UI updates in React applications.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+- Add new notes with title and details  
+- Delete notes instantly  
+- Dynamic UI updates using React state  
+- Hands-on implementation of the useState hook  
+- Fast and responsive interface  
+- Clean and beginner-friendly design  
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+- React.js  
+- JavaScript (ES6+)  
+- HTML5 & CSS3  
+- Tailwind CSS  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📦 Installation & Setup
+Follow these steps to run the project locally:
 
-## React Compiler
+1. Clone the Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+git clone https://github.com/your-username/notes-app.git](https://github.com/Samijagirdar/Notes-App-Project.git
 
-## Expanding the ESLint configuration
+3. Navigate to Project Folder
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Notes-App-Project
->>>>>>> 8ffcf578ab0f08816cccc4c6b8cefd10f4242465
+cd notes-app
+
+4. Install Dependencies
+
+Make sure you have Node.js installed, then run:
+npm install
+
+This will download all required modules listed in package.json.
+
+## ▶️ Running the Project
+
+Start the development server:
+npm start
+
+Now open your browser and go to:
+http://localhost:3000
+
+You should see the Notes App running.
+
+📁 Project Structure (Basic)
+notes-app/
+│-- src/
+│   │-- components/
+│   │-- App.js
+│   │-- index.js
+│-- public/
+│-- package.json
+
+🎯 Learning Outcome
+This project mainly focuses on:
+- Understanding how the useState hook works  
+- Managing and updating state in React  
+- Handling user inputs and dynamic rendering  
+- Practicing component-based architecture  
+
+🤝 Contributing / Issues
+If you encounter any issues or have suggestions:
+- Open an issue in the Issues section  
+- Or submit a Pull Request with improvements  
+
+If any issues are found, please feel free to raise them via a Pull Request or in the Issues section.
